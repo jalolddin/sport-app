@@ -1,0 +1,40 @@
+@mixin form {
+    .effect {
+        position: absolute;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin: 0 auto;
+        padding-top: 7rem;
+        align-items: center;
+        input {
+            width: 264px;
+            height: 52px;
+            color: black;
+            font-size: 15px;
+            border: 1px solid #DADADA;
+            border-radius: 6px;
+            padding: 0.8rem;
+            outline: none;
+        }
+        button {
+            width: 264px;
+            height: 49px;
+            border-radius: 24px;
+            background: #6AC0BE;
+            color: white;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+        }
+        p {
+            font-size: 14px;
+            color: #6AC0BE;
+            margin-top: -1rem;
+        }
+    }
+}
